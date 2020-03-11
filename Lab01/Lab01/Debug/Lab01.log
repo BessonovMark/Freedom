@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper\ITargetHelper.h(13,1): error C2504: 'BattleField': base class undefined
+C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper\ITargetHelper.h(15,27): error C2065: 'Creature': undeclared identifier
+C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper\ITargetHelper.h(15,15): error C2923: 'std::shared_ptr': 'Creature' is not a valid template type argument for parameter '_Ty'
