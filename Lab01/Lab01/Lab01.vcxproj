@@ -20,14 +20,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BattleField\BattleField.cpp" />
+    <ClCompile Include="Controller\Controller.cpp" />
+    <ClCompile Include="Creature\Characters\Villager\Villager.cpp" />
     <ClCompile Include="Creature\Creature.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Receiver\Receiver.cpp" />
     <ClCompile Include="Skill\Skill.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BattleField\BattleField.h" />
+    <ClInclude Include="Controller\Controller.h" />
+    <ClInclude Include="Creature\Characters\Villager\Villager.h" />
     <ClInclude Include="Creature\Creature.h" />
-    <ClInclude Include="ITargetHelper\ITargetHelper.h" />
+    <ClInclude Include="ITargetHelper.h" />
+    <ClInclude Include="Receiver\Receiver.h" />
     <ClInclude Include="Skill\Skill.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -83,19 +89,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Receiver;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Controller;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature\Characters\Villager;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Receiver;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Controller;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature\Characters\Villager;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Receiver;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Controller;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature\Characters\Villager;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Receiver;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Controller;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature\Characters\Villager;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\BattleField;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Skill;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\ITargetHelper;C:\Users\dima1\Desktop\GitHub\Freedom\Lab01\Lab01\Creature;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

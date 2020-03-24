@@ -5,13 +5,26 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Creature">
+      <UniqueIdentifier>{8bf97c08-3a62-4159-b9af-a44d83416692}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{af3f7626-ba6d-44a4-99d4-65baa66c5e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Characters">
+      <UniqueIdentifier>{8e62a48a-6e15-417c-aa5e-790fa020c6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Characters\Villager">
+      <UniqueIdentifier>{f5699eeb-565a-401f-9130-5980280d2ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleField">
+      <UniqueIdentifier>{769548db-a8b7-4484-9b94-86e007368e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{0d61c20f-1834-4896-b62e-b5b1893b666c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Receiver">
+      <UniqueIdentifier>{d02fb755-db7c-447f-918a-8385bd6ed98d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -19,27 +32,43 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Creature\Creature.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Creature</Filter>
     </ClCompile>
-    <ClCompile Include="Skill\Skill.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="Creature\Characters\Villager\Villager.cpp">
+      <Filter>Creature\Characters\Villager</Filter>
     </ClCompile>
     <ClCompile Include="BattleField\BattleField.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>BattleField</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\Skill.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver\Receiver.cpp">
+      <Filter>Receiver</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Skill\Skill.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ITargetHelper\ITargetHelper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Creature\Creature.h">
-      <Filter>Header Files</Filter>
+      <Filter>Creature</Filter>
     </ClInclude>
+    <ClInclude Include="Creature\Characters\Villager\Villager.h">
+      <Filter>Creature\Characters\Villager</Filter>
+    </ClInclude>
+    <ClInclude Include="ITargetHelper.h" />
     <ClInclude Include="BattleField\BattleField.h">
-      <Filter>Header Files</Filter>
+      <Filter>BattleField</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\Skill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver\Receiver.h">
+      <Filter>Receiver</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
